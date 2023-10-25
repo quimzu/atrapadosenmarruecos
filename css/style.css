@@ -1,0 +1,847 @@
+.swipe {
+    height: 324px;
+    margin: 0 auto 0;
+    overflow: hidden;
+    padding-bottom: 20px;
+    position: relative;
+    width: 488px;
+    z-index: 1;
+}
+
+.swipe li div, .swipe div div div {
+color: #FFFFFF;
+ font-size: 20px;
+ font-weight: bold;
+ text-align: center;
+ width:488px;
+}
+#slider3 ul li {
+    list-style: none outside none;
+    width: 488px !important;
+}
+.swipe ul {
+    float: left;
+    margin: 0;
+    padding: 0 0 0 8px;
+    width: 488px;
+}
+
+.next {
+    background: none repeat scroll 0 0 #EDD9CC;
+    height: 324px;
+    position: absolute;
+    right: 0;
+    width: 18px;
+    top: 20px;
+}
+
+
+.prev {
+    background: none repeat scroll 0 0 #EDD9CC;
+    height: 324px;
+    position: absolute;
+    left: 0;
+    width: 18px;
+    top: 20px;
+}
+
+#slider0 .next {
+    background: none repeat scroll 0 0 #C5DF8B;
+
+}
+
+
+#slider0 .prev {
+    background: none repeat scroll 0 0 #C5DF8B;
+
+}
+
+#slider0 .next:hover {
+    background: none repeat scroll 0 0 #669500;
+
+}
+
+
+#slider0 .prev:hover {
+    background: none repeat scroll 0 0 #669500;
+
+}
+
+
+
+.next:hover {
+background: #f18200;
+}
+.prev:hover {
+background: #f18200;
+}
+
+.prev img, .next img{
+	width: auto;
+	margin: 140px 4px;
+}
+
+body {
+  margin: 0;
+  font-family: 'trebuchet ms';
+}
+
+#sidebar {
+    background: url("../img/sidebar_transp.png") repeat-x scroll 0 -23px transparent;
+    border-top: 22px solid #F18200;
+    padding-bottom: 13px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1090;
+}
+#sidebar .ample {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+#sidebar #logo-msf {
+    width: 125px;
+    float: left;
+    border-right: 1px solid #adadad;
+    margin-top: 10px;
+}
+#sidebar #xarxes-general {
+    position: absolute;
+    right: 0;
+    top: -1.2em;
+    width: 400px;
+    z-index: 200;
+}
+#sidebar #xarxes-general p {
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 2px;
+    margin: 0 3px 0 0;
+}
+
+#sidebar #xarxes-general a {
+    color: white;
+    padding: 0;
+}
+
+#sidebar #informe{
+	cursor: pointer;
+}
+
+#sidebar ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 402px;
+    margin:14px 0 0 70px;
+}
+
+#sidebar ul li {
+    border-bottom: 1px solid #ADADAD;
+    cursor: pointer;
+    font-family: 'BellMSFE-Light';
+    line-height: 16px;
+    list-style: none outside none;
+    padding-top: 2px;
+}
+
+#sidebar ul .col1 {
+    float: left;
+    height: 60px;
+    margin-right: 40px;
+    WIDTH: 167px;
+}
+#sidebar ul .col2 {
+    float: left;
+    height: 60px;
+}
+#titol {
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: 'BellMSFE-Black';
+    font-size: 31px;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 18px 0 0;
+    padding-left: 1em;
+    width: 180px;
+}
+#titol span{
+__font-size: 26px;
+}
+
+#sidebar #mapa {
+    background: url("../img/mapa.png") no-repeat scroll left bottom transparent;
+    float: right;
+    height: 49px;
+    margin-top: 15px;
+    width: 123px;
+    position: relative;
+}
+#sidebar #mapa #nador {
+    left: 43px;
+    top: 15px;
+    color: #ca0000;
+}
+
+#sidebar #mapa #oujda {
+    left: 58px;
+    top: 28px;
+    color: #669500;
+    
+}
+
+#sidebar #mapa #rabat {
+    left: 2px;
+    top: 32px;
+    color:#f18200;
+    
+}
+
+#sidebar #mapa #nador span {
+    top: -30px;
+    left: -20px;
+}
+
+#sidebar #mapa #oujda span {
+right:  -80px;
+top: -20px;
+
+}
+
+#sidebar #mapa #rabat span {
+top: -10px;
+right: 30px;
+    
+}
+
+
+#sidebar #mapa a{
+position: absolute;
+text-indent: -99999px;
+width: 17px;
+height: 17px;
+background: url("../img/punt.png") no-repeat scroll left bottom transparent;
+cursor: pointer;
+}
+
+
+#sidebar #mapa a:hover{
+	text-indent: 0px;
+	text-transform: uppercase;
+	padding-bottom: ;
+}
+
+#sidebar #mapa a span{
+top: -20px;
+position: absolute;
+
+}
+
+
+#sidebar #mapa {
+    font-family: 'BellMSFE-Black';
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#contingut{
+overflow: hidden;
+	    position: relative;
+	
+}
+
+#contingut section {
+}
+#contingut.plegat section{
+
+
+}
+
+
+#contingut .apartat{
+	width: 100%;
+	height: 100%;
+}
+
+article {
+    font: 1.6em ;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+    position: relative;
+}
+article p {
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+
+
+article div.capsa-info-doble div {
+    margin-top: 0px;
+}
+
+article div div {
+    margin-top: 20px;
+}
+
+
+
+.apartat div.capsa-info span.num {
+    left: 10px;
+    position: absolute;
+    top: 38px;
+    font-family: 'BellMSFE-Black';
+    font-size: 20px;
+}
+
+
+article h2 {
+    border-bottom: 1px solid #333333;
+    font-size: 35px;
+    margin: 0;
+    padding-left: 0.75em;
+    width: 100%;
+    font-family: BellMSFE-Black;
+    font-weight: normal;
+}
+/*
+.capsa-info-doble h2
+{
+    border-bottom: 1px solid #333333;
+    font-size: 35px;
+    padding-left: 0.75em;
+    width: 100%;
+}*/
+
+article span.num
+{
+    left: 0;
+    position: absolute;
+    top: 4px;
+    font-family: BellMSFE-Black;
+    font-weight: normal;
+}
+
+.navegacio-botons div {
+	cursor: pointer;
+}
+
+/*Videos fullscreeen/responsive*/
+.video {
+    height: 100%;
+    width: 100%;
+}
+
+article div img{width: 100%;}
+
+/*Diapositives microsite*/
+
+.apartat{
+	
+}
+
+.apartat div.capsa-info-ample
+{
+	width: 100%;
+	position: relative;
+}
+
+.apartat div.capsa-info-ample h2
+{
+    border-bottom: 1px solid #333333;
+    font-size: 35px;
+    padding-left: 0.75em;
+    width: 100%;
+}
+
+.apartat div.capsa-info-ample span.num
+{
+    left: 0;
+    position: absolute;
+    top: 4px;
+}
+
+.capsa-info-ample .col1,.capsa-info .col2 {
+    width: 45%;
+    float: left;
+}
+
+.capsa-info-ample .col1{
+	margin-right: 5%;
+}
+.capsa-info-doble div.col1 {
+    float: left;
+    margin-right: 8%;
+    width: 46%;
+}
+.capsa-info-doble div.col2 {
+    float: left;
+    margin-right: 0;
+    width: 46%;
+}
+.capsa-info-doble div img{
+	width: 100%;
+}
+
+.capsa-info-doble
+{
+	margin:0 auto;
+
+	width: 100%;
+	max-width: 960px;
+	;
+	position: relative;
+}
+
+
+.capsa-info-doble h3{
+	font-size: 18px;
+	font-weight: normal;
+}
+
+
+/*Capsa  text+ multimedia INline*/
+.capsa-multimedia {
+ position: relative;
+}
+
+.capsa-multimedia .text {
+	float: left;
+	width: 380px;
+}
+
+.capsa-multimedia .multimedia {
+	float: right;
+	width: 490px;
+}
+.capsa-multimedia .multimedia-esquerra {
+	float: left;
+	width: 490px;
+}
+.capsa-multimedia .text-esquerra {
+	float: right;
+	width: 380px;
+}
+
+
+
+/*Diapositiva 1*/
+
+#apartatFloor1{
+background: url("../img/apartat1.jpg");
+background-size: cover;
+	
+}
+#apartatFloor1 h1 {
+    color: #FFFFFF;
+    font-family: 'BellMSFE-Black';
+    font-size: 80px;
+    line-height: 50px;
+    text-align: right;
+    width: 100%;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+#apartatFloor1 h1 span{
+	display: block;
+	font-size: 50px;
+	font-weight: 100;
+}
+
+#apartatFloor1 div.capsa-info {
+    background: rgba(255,255,255,.6);
+    float: right;
+    height: auto;
+    padding: 20px;
+    width: 390px;
+}
+
+#apartatFloor1 div.capsa-info p {
+    font-family: 'BellMSFE-Light';
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0;
+}
+
+/*Diapositiva 3*/
+
+#apartatFloor1 .capsa-info span {
+    float: right;
+    font-family: 'BellMSFE-Light';
+    font-weight: inherit;
+	
+}
+
+img[usemap] {
+    border: medium none;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+#apartatFloor7 p{
+font-size: 14px;
+	
+}
+#apartatFloor9{
+background: url("../img/oujda.jpg") 0 0;
+background-size: cover;
+background-repeat: no-repeat;
+	
+}
+
+#apartatFloor11 .comparteix  {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+#apartatFloor13 .comparteix  {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+
+#apartatFloor12{
+background: url("../img/nador.jpg") 0 0;
+background-size: cover;
+background-repeat: no-repeat;
+	
+}
+
+
+/*Informe*/
+
+#apartatFloor15{
+background: url("../img/informe.jpg");
+background-size: cover;
+
+background-repeat: no-repeat;
+	
+	
+	
+}
+#apartatFloor15 div.capsa-info {
+    background: url("../img/informe.png") repeat scroll 0 0 transparent;
+    color: #000000;
+    float: left;
+    height: 298px;
+    width: 290px;
+}
+
+#apartatFloor15 div.capsa-info ul {
+    border-top: 1px solid #A2A2A2;
+    margin: 2em 0 0;
+    padding: 0;
+}
+
+#apartatFloor15 div.capsa-info ul li {
+    border-bottom: 1px solid #A2A2A2;
+    list-style: disc inside none;
+    padding: 5px;
+}
+
+#apartatFloor15 div.capsa-info ul li a{
+color: gray;
+   text-decoration: none;
+}
+
+
+#apartatFloor3 div.capsa-info {
+    border-left: 8px solid #F2F2F2;
+    color: #565656;
+    float: right;
+    font-size: 24px;
+    height: auto;
+    padding-left: 11px;
+    position: absolute;
+    right: 200px;
+    top: 325px;
+    width: 300px;
+    z-index: 109;
+}
+
+
+
+#apartatFloor3  div.capsa-info p{margin: 0 auto;}
+#apartatFloor3  div.capsa-info span{color: red;
+}
+
+
+
+
+.seccio div.capsa-info p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.seccio  div.capsa-info p span{
+	color: #ca0000;
+}
+
+#apartatFloor4{
+background: url("../img/rabat1.jpg");
+background-size: cover;
+	
+}
+
+
+/*Especial portades de cada seccio*/
+
+.seccio div.capsa-info {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    float: right;
+    font-size: 14px;
+    height: auto;
+    padding: 35px;
+    position: relative;
+    width: 390px;
+	
+}
+
+.seccio div.capsa-info h2 {
+    border: medium none;
+    font-size: 42px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: 'BellMSFE-Black';
+}
+
+.seccio div.capsa-info span.num{
+ left: 35px;
+ }
+
+
+
+/*COLORS PER APARTATS */
+
+#sidebar.rabat{border-color:#F18200;}
+#sidebar.oujda {border-color: #669500 ;}
+#sidebar.nador{border-color: #ca0000;}
+#sidebar.informe{border-color: #afafaf;}
+
+
+#sidebar.rabat li a:hover{color:#F18200;}
+#sidebar.oujda  li a:hover {color: #669500 ;}
+#sidebar.nador  li a:hover{color: #ca0000;}
+#sidebar.informe li a:hover{border-color: #afafaf;}
+
+
+#sidebar.rabat  #mapa a#rabat {
+    text-indent: 0;
+    text-transform: uppercase;
+}
+#sidebar.oujda  #mapa a#oujda {
+    text-indent: 0;
+    text-transform: uppercase;
+}
+#sidebar.nador  #mapa a#nador {
+    text-indent: 0;
+    text-transform: uppercase;
+}
+
+#sidebar.nador{border-color: #ca0000;}
+
+
+article.oujda h2 {
+    border-bottom: 1px solid #669500;
+}
+
+article.oujda span.num{
+	color: #669500;
+}
+
+article.oujda :not(seccion) h3 {
+	color: #669500;
+}
+
+
+
+article.rabat h2 {
+    border-bottom: 1px solid #F18200;
+}
+
+article.rabat span.num{
+	color: #F18200;
+}
+
+article.rabat :not(seccion) h3 {
+	color: #F18200;
+}
+
+
+article.nador h2 {
+    border-bottom: 1px solid #ca0000;
+}
+
+article.nador span.num{
+	color: #ca0000;
+}
+
+article.nador :not(seccion) h3 {
+	color: #ca0000;
+}
+
+
+.rabat div.capsa-info-ample h2{
+	border-color: #f18200;
+}
+
+.rabat div.capsa-info-ample span.num{
+		color: #f18200;
+	
+}
+
+.rabat div.capsa-info span.num{
+color: #f18200;
+}
+
+
+/*mapa*/
+
+area{
+	cursor: pointer;
+}
+
+#info-mapa-nador {
+    background: none repeat scroll 0 0 #F7D9D9;
+    left: 47em;
+    padding: 1em;
+    position: absolute;
+    top: 50px;
+    width: 410px;
+    z-index: 200;
+    display: none;
+}
+#info-mapa-oujda {
+    background: none repeat scroll 0 0 #E8EFD9;
+    left: 48em;
+    padding: 1em;
+    position: absolute;
+    top: 400px;
+    width: 340px;
+    z-index: 200;
+    display: none;
+}
+
+#info-mapa-rabat {
+    background: none repeat scroll 0 0 #FDECD9;
+    left: 15em;
+    padding: 1em;
+    position: absolute;
+    top: 25em;
+    width: 340px;
+    z-index: 200;
+	display: none;
+}
+
+
+/*BOTONS DE NAVEGACIÓ*/
+
+.navegacio-botons div{
+	position: fixed;
+	z-index: 1300;
+}
+
+.navegacio-botons .adalt{
+top: 0;
+left: 40%;
+}
+.navegacio-botons .abaix{
+bottom: -4px;
+left: 40%;
+}
+
+.navegacio-botons .dreta{
+right: 0;
+top: 40%;
+}
+
+.navegacio-botons .esquerra{
+left: 0;
+top: 40%;
+}
+
+
+article .navegacio-botons .adalt {
+    top: 83px;
+}
+
+
+img.fb-botton, img.xarxes_twitter {
+	width: auto!important;
+}
+
+img.fb-botton {
+	cursor: pointer;
+}
+
+.comparteix div, .comparteix .popup {
+    display: inline;
+}
+
+#slider0{
+	margin-top: -20px;
+}
+
+
+#creditos {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    bottom: 2em;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 1em;
+    position: absolute;
+    width: auto;
+    left: 51em;
+    color: white;
+}
+
+#creditos a{color: #000;
+	text-decoration: none; font-family: 'BellMSFE-Black';
+}
+
+
+body.laptop article {
+	  margin-top: 120px !important;
+}
+body.laptop article p {
+	font-size: 13px;
+}
+
+body.laptop article img.det {
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+body.laptop .swipe {
+    height: 280px;
+    width: 450px;
+    z-index: 1;
+}
+
+
+body.laptop .navegacio-botons div.dreta img,body.laptop .navegacio-botons div.esquerra img{
+	width: 30px;
+	height: autp;
+}
+
+body.laptop .navegacio-botons div.adalt img,body.laptop .navegacio-botons div.abaix img{
+	width: auto;
+	height: 30px;
+}

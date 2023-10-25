@@ -1,0 +1,50 @@
+article{
+	width: 960px;
+}
+
+
+.apartat div.capsa-info-ample
+{
+	width: 960px;
+	margin: 0px auto;
+	
+	position: relative;
+}
+
+#logo-msf img, .prev img, .next img{
+	border: none;
+}
+#apartatFloor6 .swipe, #apartatFloor7 .swipe, #apartatFloor8 .swipe{
+	margin-top: 4em;
+}
+
+.seccio div.capsa-info{
+	margin-right: 100px;
+	margin-top: 120px;
+	background: gray;
+}
+
+.capsa-multimedia {
+	width: 960px;
+	margin: 130px auto;
+}
+
+.capsa-info-doble{
+	margin-top: 120px;
+}
+
+#apartatFloor1 .capsa-info{
+	background: gray;
+	margin-right: 80px;
+	position: absolute;
+	top: 400;
+	right: 100px;
+	
+	}
+	
+	#apartatFloor1 h1{
+width: 400px;
+		margin-right: 180px;
+		float: right;
+		
+		}
